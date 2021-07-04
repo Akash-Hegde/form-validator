@@ -53,12 +53,16 @@ h2 {
 }
 
 .form-control.success input {
-  border-color: #34fe41;
+  border-color: #17aa48;
 }
 
 .form-control small {
   color: #de0234;
   visibility: hidden;
+}
+
+.form-control.error small {
+  visibility: visible;
 }
 
 .form-control input:focus {
